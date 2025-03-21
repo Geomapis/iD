@@ -151987,6 +151987,19 @@
     "icon": "https://osmlab.github.io/editor-layer-index/sources/world/OpenStreetMap-GPS.png"
   },
   {
+    "id": "ETK",
+    "name": "ETK",
+    "type": "tms",
+    "template": "http://127.0.0.1:8081/tiles/{zoom}/{x}/{y}.png",
+    "category": "osmbasedmap",
+    "zoomExtent": [0, 23],
+    "terms_url": "http://127.0.0.1:3000",
+    "terms_text": "© OpenStreetMap contributors, ODbL 1.0",
+    "default": false,
+    "description": "ETK layer.",
+    "icon": "https://osmlab.github.io/editor-layer-index/sources/world/OpenStreetMap-GPS.png"
+  },
+  {
     "id": "osm-gps",
     "name": "OpenStreetMap GPS traces",
     "type": "tms",

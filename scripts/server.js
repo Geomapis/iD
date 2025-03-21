@@ -23,7 +23,7 @@ const server = http.createServer((request, response) => {
   });
 });
 
-server.listen(8080, () => {
+server.listen(8089, () => {
   /* eslint-disable no-console */
   console.log(chalk.yellow(`Listening on ${server.port}`));
 });
